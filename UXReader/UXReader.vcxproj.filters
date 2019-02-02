@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Miscellaneous">
+      <UniqueIdentifier>{0ba34932-2800-42bb-8c74-b8d978604e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXReaderToolbar">
+      <UniqueIdentifier>{30106a03-f770-4237-b8e8-f591dde65d4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXReaderSupport">
+      <UniqueIdentifier>{249ef0a1-93e9-4ea5-9fe5-73e5dfd88ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXReaderLibrary">
+      <UniqueIdentifier>{e5a50180-a29a-4ceb-9015-ea35f9ac68a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXReaderXtra">
+      <UniqueIdentifier>{d4c2d7b7-8d2a-4365-9cf0-93baa92d579c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UXReader">
+      <UniqueIdentifier>{a28fc3ee-3f67-4bec-90bf-5b329e189c2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.hpp">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderBlank.hpp">
+      <Filter>UXReaderLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderLibrary.hpp">
+      <Filter>UXReaderLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderDocumentPane.hpp">
+      <Filter>UXReader</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderBlankPane.hpp">
+      <Filter>UXReaderLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderDocumentPage.hpp">
+      <Filter>UXReader</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderDebug.hpp">
+      <Filter>UXReaderLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderDocument.hpp">
+      <Filter>UXReader</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderGeometry.hpp">
+      <Filter>UXReaderSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderPageCache.hpp">
+      <Filter>UXReaderSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderDataSource.hpp">
+      <Filter>UXReaderLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderSupport.hpp">
+      <Filter>UXReaderLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderAction.hpp">
+      <Filter>UXReaderSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderDestination.hpp">
+      <Filter>UXReaderSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderSelection.hpp">
+      <Filter>UXReaderSupport</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderGlobals.hpp">
+      <Filter>UXReaderLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderTemplates.hpp">
+      <Filter>UXReaderXtra</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderDocumentView.hpp">
+      <Filter>UXReader</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderToolbarEdit.hpp">
+      <Filter>UXReaderToolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderToolbarItem.hpp">
+      <Filter>UXReaderToolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderToolbarPane.hpp">
+      <Filter>UXReaderToolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderToolbarText.hpp">
+      <Filter>UXReaderToolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderStatusPane.hpp">
+      <Filter>UXReaderToolbar</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderMainWindow.hpp">
+      <Filter>UXReader</Filter>
+    </ClInclude>
+    <ClInclude Include="UXReaderResource.hpp">
+      <Filter>UXReaderLibrary</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderBlank.cpp">
+      <Filter>UXReaderLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderLibrary.cpp">
+      <Filter>UXReaderLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderDocumentPane.cpp">
+      <Filter>UXReader</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderBlankPane.cpp">
+      <Filter>UXReaderLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderDocumentPage.cpp">
+      <Filter>UXReader</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderDebug.cpp">
+      <Filter>UXReaderLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderDocument.cpp">
+      <Filter>UXReader</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderGeometry.cpp">
+      <Filter>UXReaderSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderPageCache.cpp">
+      <Filter>UXReaderSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderDataSource.cpp">
+      <Filter>UXReaderLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderSupport.cpp">
+      <Filter>UXReaderLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderAction.cpp">
+      <Filter>UXReaderSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderDestination.cpp">
+      <Filter>UXReaderSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderSelection.cpp">
+      <Filter>UXReaderSupport</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderGlobals.cpp">
+      <Filter>UXReaderLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderTemplates.cpp">
+      <Filter>UXReaderXtra</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderDocumentView.cpp">
+      <Filter>UXReader</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderToolbarEdit.cpp">
+      <Filter>UXReaderToolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderToolbarItem.cpp">
+      <Filter>UXReaderToolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderToolbarPane.cpp">
+      <Filter>UXReaderToolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderToolbarText.cpp">
+      <Filter>UXReaderToolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderStatusPane.cpp">
+      <Filter>UXReaderToolbar</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderMainWindow.cpp">
+      <Filter>UXReader</Filter>
+    </ClCompile>
+    <ClCompile Include="UXReaderResource.cpp">
+      <Filter>UXReaderLibrary</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Todo.txt" />
+  </ItemGroup>
+</Project>
